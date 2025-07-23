@@ -184,3 +184,6 @@ This Credit Risk Prediction project successfully demonstrates how data analytics
 
 - **Content:** The dataset was originally provided by the **UCI Machine Learning Repository**.
 - **Media:** All confusion matrix plots and dashboard screenshots were generated as part of this project.
+- **AI Assistant:** This project greatly benefited from the guidance and assistance of **Gemini 2.5 by Google**.
+- **Learning Platform:** Special thanks to our learning platform (LMS) for providing the educational resources.
+- **Mentorship/Support:** Emma ([https://github.com/elamont174](https://github.com/elamont174)) for her invaluable support and guidance throughout the course.
