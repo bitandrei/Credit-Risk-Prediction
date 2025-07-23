@@ -6,21 +6,23 @@ This project aims to analyze and predict credit card default risk to help financ
 
 ## 📌 Table of Contents
 
+1. ## Table of Contents
+
 1. [Project Overview](#project-credit-risk-prediction)
-2. [Dataset Content](#dataset-content)
-3. [Business Requirements](#business-requirements)
-4. [Hypotheses and Validation](#hypotheses-and-validation)
-5. [Project Plan](#project-plan)
-6. [Mapping Visuals to Requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
-7. [Analysis Techniques](#analysis-techniques-used)
-8. [Ethical Considerations](#ethical-considerations)
-9. [Dashboard Design](#dashboard-design)
-10. [Unfixed Bugs](#unfixed-bugs)
-11. [Development Roadmap](#development-roadmap)
-12. [Deployment](#deployment)
-13. [Main Libraries](#main-data-analysis-libraries)
-14. [Credits](#credits)
-15. [Acknowledgements (Optional)](#acknowledgements-optional)
+1. [Dataset Content](#dataset-content)
+1. [Business Requirements](#business-requirements)
+1. [Hypotheses and Validation](#hypotheses-and-validation)
+1. [Project Plan](#project-plan)
+1. [Mapping Requirements to Visuals](#mapping-requirements-to-visuals)
+1. [Analysis Techniques](#analysis-techniques-used)
+1. [Ethical Considerations](#ethical-considerations)
+1. [Dashboard Design](#dashboard-design)
+1. [Unfixed Bugs](#unfixed-bugs)
+1. [Development Roadmap](#development-roadmap)
+1. [Deployment](#deployment)
+1. [Main Libraries](#main-data-analysis-libraries)
+1. [Credits](#credits)
+1. [Acknowledgements](#acknowledgements)
 
 ---
 
