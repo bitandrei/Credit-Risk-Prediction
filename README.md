@@ -4,8 +4,6 @@
 
 This project aims to analyze and predict credit card default risk to help financial institutions make informed decisions, minimize losses, and improve customer strategies.
 
-## 📌 Table of Contents
-
 ## Table of Contents
 
 1. [Project Credit Risk Prediction](#project-credit-risk-prediction)
@@ -26,7 +24,7 @@ This project aims to analyze and predict credit card default risk to help financ
 
 ---
 
-### 🔗 Key Resources:
+## Key Resources:
 
 - **Dataset**: [https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
 - **GitHub Repository**: [https://github.com/bitandrei/Credit-Risk-Prediction](https://github.com/bitandrei/Credit-Risk-Prediction)
@@ -34,15 +32,15 @@ This project aims to analyze and predict credit card default risk to help financ
 
 ---
 
-### 📌 Who is this project for?
+## Who is this project for?
 
 This report is designed for both technical and non-technical audiences — especially decision-makers in banking or risk teams who want to understand which customers are most at risk and how data can help reduce defaults.
 
-### 🚀 Project Overview
+## Project Overview
 
 This capstone project focuses on building a robust data analytics solution to predict credit card default. By leveraging historical customer data, we aim to identify key risk factors and develop predictive models that can flag potential defaulters. The ultimate goal is to empower financial institutions with data-driven insights to minimize financial losses and optimize their lending practices.
 
-### 📚 Dataset Content
+## Dataset Content
 
 The dataset contains comprehensive information on credit card clients in Taiwan, covering their payment behavior, demographic data, credit limits, and past bill statements. Each row represents a client, and the columns include:
 
@@ -51,7 +49,7 @@ The dataset contains comprehensive information on credit card clients in Taiwan,
 - **Payment History:** Records of Payment Delays for the past six months (e.g., paid on time, delayed by one month, etc.).
 - **Target Variable:** `Default` (whether the client defaulted on their next payment, 1 for default, 0 for no default).
 
-### 🎯 Business Requirements
+## Business Requirements
 
 The core business goal is to reduce financial losses due to credit card defaults. To achieve this, the project addresses several key business questions:
 
@@ -61,7 +59,7 @@ The core business goal is to reduce financial losses due to credit card defaults
 
 By answering these questions, financial institutions can implement targeted risk mitigation strategies, improve customer segmentation, and make more precise lending decisions.
 
-### 💡 Hypotheses and Validation
+## Hypotheses and Validation
 
 Our analysis was guided by several hypotheses, which were checked using statistical and machine learning methods:
 
@@ -72,7 +70,7 @@ Our analysis was guided by several hypotheses, which were checked using statisti
 - **Hypothesis 3: Machine learning models can effectively predict credit default risk.**
   - **How we checked it:** We trained and evaluated various classification models and compared their accuracy using real data.
 
-### 🗺️ Project Plan
+## Project Plan
 
 The project followed a structured data analytics pipeline:
 
@@ -84,7 +82,7 @@ The project followed a structured data analytics pipeline:
 6.  **Dashboarding:** Creating interactive visualizations in Tableau to present insights and model performance.
 7.  **Conclusions & Recommendations:** Summarizing key findings and providing actionable business recommendations.
 
-### 📊 The Rationale to Map the Business Requirements to the Data Visualisations
+## The Rationale to Map the Business Requirements to the Data Visualisations
 
 Each dashboard and its visuals were designed to directly address the business requirements:
 
@@ -111,7 +109,7 @@ Each dashboard and its visuals were designed to directly address the business re
   - **Visuals:** A clear **table** summarizes key machine learning metrics (Accuracy, Precision, Recall, F1-Score) for each model, addressing "Can we predict default risk with a model?". **Confusion Matrix images** provide a detailed breakdown of True Positives, False Negatives, etc., for each model, offering transparent insights into their strengths and weaknesses.
     ![Dashboard 4 Preview](assets/images/dashboard4_model_performance.png)
 
-### 🛠️ Analysis Techniques Used
+## Analysis Techniques Used
 
 This project utilized a blend of programming, statistical, and visualization techniques:
 
@@ -125,7 +123,7 @@ This project utilized a blend of programming, statistical, and visualization tec
   - **Filters and Parameters:** Enabled dynamic exploration of the data by users.
   - **Color Coding:** Consistent and colorblind-friendly palettes were used to enhance readability and highlight key distinctions (e.g., Defaulters vs. Non-Defaulters).
 
-### ⚖️ Ethical Considerations
+## Ethical Considerations
 
 In developing this credit risk prediction solution, ethical considerations were paramount:
 
@@ -133,7 +131,7 @@ In developing this credit risk prediction solution, ethical considerations were 
 - **Data Privacy:** The dataset used is anonymized. In a real-world scenario, strict adherence to data privacy regulations (e.g., GDPR, CCPA) would be essential, ensuring client data is protected and used only for its intended purpose.
 - **Responsible AI/ML:** The predictive models are tools to assist decision-making, not replace human judgment. Their output should be used as one factor among many in a comprehensive credit assessment, allowing for human oversight and the consideration of individual circumstances. Transparency in model performance (via confusion matrices and metrics) is crucial.
 
-### 🎨 Dashboard Design
+## Dashboard Design
 
 The Tableau dashboards were designed with user experience and clear communication in mind:
 
@@ -149,11 +147,11 @@ The Tableau dashboards were designed with user experience and clear communicatio
   - **Box Plots:** To compare the statistical distribution (median, spread, outliers) of continuous variables across groups.
   - **Highlight Tables:** To show average metrics across combinations of categories, with color highlighting risk levels.
 
-### 🐛 Unfixed Bugs
+## Unfixed Bugs
 
 - Currently, the confusion matrix images are embedded statically on the dashboard. While highly reliable, this means they are not dynamically updated via a parameter selection, which was an initial goal. This is a known limitation when working with local image paths in Tableau Public.
 
-### 🛣️ Development Roadmap
+## Development Roadmap
 
 Future enhancements for this project could include:
 
@@ -164,11 +162,11 @@ Future enhancements for this project could include:
 - **Develop** a system for continuous model retraining with new data and real-time monitoring of model performance in a production environment.
 - **Quantify** the ROI through cost-benefit analysis, integrating a financial cost model to assess the potential savings from accurate default prediction.
 
-### 🌐 Deployment
+## Deployment
 
 The interactive dashboards are publicly accessible and deployed on **Tableau Public**, allowing easy sharing and exploration of the analysis and insights.
 
-### 💻 Main Data Analysis Libraries
+## Main Data Analysis Libraries
 
 The Python analysis heavily relied on the following libraries:
 
@@ -178,11 +176,11 @@ The Python analysis heavily relied on the following libraries:
 - **`matplotlib`**: For static data visualization.
 - **`seaborn`**: For enhanced statistical data visualization.
 
-### 🎉 Conclusion
+## Conclusion
 
 This Credit Risk Prediction project successfully demonstrates how data analytics can be applied to a critical business problem. By combining robust data analysis, statistical validation, and machine learning, we've gained actionable insights into credit default drivers and built predictive tools to support more informed financial decision-making.
 
-### 👏 Credits
+## Credits
 
 - **Content:** The dataset was originally provided by the **UCI Machine Learning Repository**.
 - **Media:** All confusion matrix plots and dashboard screenshots were generated as part of this project.
