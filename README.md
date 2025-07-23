@@ -6,10 +6,10 @@ This project aims to analyze and predict credit card default risk to help financ
 
 ## Table of Contents
 
-1. [Project Credit Risk Prediction](#project-credit-risk-prediction)
+1. [Project Overview](#project-overview)
 2. [Dataset Content](#dataset-content)
 3. [Business Requirements](#business-requirements)
-4. [Hypothesis and how to validate?](#hypothesis-and-how-to-validate)
+4. [Hypotheses and Validation](#hypotheses-and-validation)
 5. [Project Plan](#project-plan)
 6. [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
 7. [Analysis techniques used](#analysis-techniques-used)
