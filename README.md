@@ -41,6 +41,7 @@ This report is designed for both technical and non-technical audiences — espec
 For a comprehensive overview of this project, including our methodology, detailed findings, model performance, and actionable recommendations, please view our full presentation:
 
 [**Credit Risk Prediction Project Presentation (PowerPoint)**](assets/presentation/credit-risk-prediction.pptx)
+
 [**Credit Risk Prediction Project Presentation (PDF)**](assets/presentation/Credit-Risk-Prediction.pdf/Credit-Risk-Prediction.pdf)
 
 ## Project Overview
