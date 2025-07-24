@@ -6,21 +6,21 @@ This project aims to analyze and predict credit card default risk to help financ
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Dataset Content](#dataset-content)
-3. [Business Requirements](#business-requirements)
-4. [Hypotheses and Validation](#hypotheses-and-validation)
-5. [Project Plan](#project-plan)
-6. [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
-7. [Analysis techniques used](#analysis-techniques-used)
-8. [Ethical considerations](#ethical-considerations)
-9. [Dashboard Design](#dashboard-design)
-10. [Unfixed Bugs](#unfixed-bugs)
-11. [Development Roadmap](#development-roadmap)
-12. [Deployment](#deployment)
-13. [Main Data Analysis Libraries](#main-data-analysis-libraries)
-14. [Credits](#credits)
-15. [Acknowledgements (optional)](#acknowledgements-optional)
+1. [Project Presentation](#project-presentation)
+2. [Project Overview](#project-overview)
+3. [Dataset Content](#dataset-content)
+4. [Business Requirements](#business-requirements)
+5. [Hypotheses and Validation](#hypotheses-and-validation)
+6. [Project Plan](#project-plan)
+7. [The rationale to map the business requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
+8. [Analysis techniques used](#analysis-techniques-used)
+9. [Ethical considerations](#ethical-considerations)
+10. [Dashboard Design](#dashboard-design)
+11. [Unfixed Bugs](#unfixed-bugs)
+12. [Development Roadmap](#development-roadmap)
+13. [Deployment](#deployment)
+14. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+15. [Credits](#credits)
 
 ---
 
@@ -35,6 +35,13 @@ This project aims to analyze and predict credit card default risk to help financ
 ## Who is this project for?
 
 This report is designed for both technical and non-technical audiences — especially decision-makers in banking or risk teams who want to understand which customers are most at risk and how data can help reduce defaults.
+
+## Project Presentation
+
+For a comprehensive overview of this project, including our methodology, detailed findings, model performance, and actionable recommendations, please view our full presentation:
+
+[**Credit Risk Prediction Project Presentation (PowerPoint)**](assets/presentation/credit-risk-prediction.pptx)
+[**Credit Risk Prediction Project Presentation (PDF)**](assets/presentation/Credit-Risk-Prediction.pdf/Credit-Risk-Prediction.pdf)
 
 ## Project Overview
 
@@ -89,7 +96,7 @@ Each dashboard and its visuals were designed to directly address the business re
 - **Dashboard 1: Executive Summary / Overall Default Overview:**
 
   - **Purpose:** Provides a high-level snapshot of the problem.
-  - **Visuals:** A large **KPI** shows the overall default rate (e.g., 22.1%), immediately answering "What is the scale of the problem?". Simple **bar charts** show overall client counts by gender and age, giving a quick demographic overview.
+  - **Visuals:** A large **KPI** shows the overall default rate 22.12%, immediately answering "What is the scale of the problem?". Simple **bar charts** show overall client counts by gender and age, giving a quick demographic overview.
     ![Dashboard 1 Preview](assets/images/dashboard1_overview.png)
 
 - **Dashboard 2: Demographics & Default Risk:**
